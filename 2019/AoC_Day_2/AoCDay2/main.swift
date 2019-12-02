@@ -107,6 +107,8 @@ for noun in 0...99 {
 
         if computer.output == 19_690_720 {
             print("Verb: \(verb) Noun: \(noun)")
+
+            break
         }
     }
 }
